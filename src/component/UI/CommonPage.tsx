@@ -1,7 +1,6 @@
 import {Typography} from 'antd';
 import React from 'react';
 
-
 import {CardWrap, FlexWrap, TitleWrap, UnderLineWrap} from '@/style/styles';
 interface Props {
   children: React.ReactNode;
@@ -30,12 +29,7 @@ function CommonPage({children, titleName, lineWidth, lineColor, initTitleOn = fa
       </FlexWrap>
     );
   }
-  return (
-    <FlexWrap>
-      <img src={tab_bg} />
-      {children}
-    </FlexWrap>
-  );
+  return <FlexWrap>{children}</FlexWrap>;
 }
 
 export {CommonPage};
