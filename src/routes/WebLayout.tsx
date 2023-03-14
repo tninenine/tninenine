@@ -4,7 +4,6 @@ import React, {Suspense} from 'react';
 import {Outlet, Link, RouteObject, useLocation, useNavigate} from 'react-router-dom';
 import styled from 'styled-components';
 
-import bottom from '@/assets/images/bottom.png';
 import logo from '@/assets/images/logo.png';
 
 import WebRoutes, {pathDict, RoutePath} from './WebRoutes';
@@ -56,7 +55,6 @@ const ContentContent = styled(Content)`
 `;
 
 const FooterContent = styled.div`
-  background-image: url(${bottom});
   background-size: cover;
   background-repeat: no-repeat;
   height: 108px;
