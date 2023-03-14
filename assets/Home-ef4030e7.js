@@ -1,4 +1,4 @@
-import{u as p,j as e}from"./main-26e121a8.js";import{r as l}from"./react-f0d12c14.js";import{s as t}from"./styled-components.browser.esm-49ceb9e0.js";import{e as x,T as d}from"./antd-3c331411.js";const c="/assets/theme_song-a466c804.jpg",n="/assets/boss-fcb424b1.png",g=[{id:1,image:n,name:"Boss",role:"director"},{id:2,image:n,name:"billkin",role:"Teh"},{id:3,image:n,name:"pp krit",role:"Oh-aew"},{id:4,image:n,name:"Nat Kitcharit",role:"Hoon"},{id:5,image:n,name:"Khunpol",role:"Bass"}],h=g;t.div`
+import{u as p,j as e}from"./main-d381d64b.js";import{r as l}from"./react-f0d12c14.js";import{s as t}from"./styled-components.browser.esm-4a98c565.js";import{e as x,T as d}from"./antd-d3821f52.js";const c="/assets/theme_song-a466c804.jpg",n="/assets/boss-fcb424b1.png",g=[{id:1,image:n,name:"Boss",role:"director"},{id:2,image:n,name:"billkin",role:"Teh"},{id:3,image:n,name:"pp krit",role:"Oh-aew"},{id:4,image:n,name:"Nat Kitcharit",role:"Hoon"},{id:5,image:n,name:"Khunpol",role:"Bass"}],h=g;t.div`
   cursor: pointer;
   display: flex;
   justify-content: space-between;
